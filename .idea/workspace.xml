@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0612add6-2c9f-4c32-99bb-6f2c8037cdae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navbar/icons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navbar/mobile-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navbar/page-nav.menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/YOLOG.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blogpost/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/blogpost/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/max-width-wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/max-width-wrapper.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/theme-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/theme-toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sample-blogs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/site.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/c-programming-tutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/c-programming-tutorial.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
@@ -57,6 +71,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/components/navbar" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -115,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726920184085</updated>
-      <workItem from="1726920185457" duration="13578000" />
+      <workItem from="1726920185457" duration="18479000" />
     </task>
     <servers />
   </component>
