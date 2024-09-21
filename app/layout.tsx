@@ -1,6 +1,11 @@
+import React from 'react'
 import type { Metadata } from 'next'
 import { Inter as Fontsans } from 'next/font/google'
 import './globals.css'
+
+import Navbar from '@/components/navbar/navbar'
+import ClientThemeProvider from '@/components/client-theme-provider'
+
 import { cn } from '@/lib/utils'
 import SiteConfig from '@/config/site'
 
@@ -20,14 +25,22 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased',
           fontSans.variable,
         )}
       >
-        {children}
+        <ClientThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar />
+          {children}
+        </ClientThemeProvider>
       </body>
     </html>
   )
