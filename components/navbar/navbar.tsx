@@ -22,6 +22,12 @@ const Navbar = () => {
         <li>
           <Link href="/about">About</Link>
         </li>
+        <li>
+          <Link href="/blog">Blog</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
         <li className="flex px-4 items-center space-x-1">
           <Link
             href="/login"

@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ko">
+    <html lang="ko" className="scroll-p-20 scroll-smooth">
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased',
