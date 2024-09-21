@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0612add6-2c9f-4c32-99bb-6f2c8037cdae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/client-theme-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/theme-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/theme-toggle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
@@ -119,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726920184085</updated>
-      <workItem from="1726920185457" duration="3987000" />
+      <workItem from="1726920185457" duration="5755000" />
     </task>
     <servers />
   </component>
