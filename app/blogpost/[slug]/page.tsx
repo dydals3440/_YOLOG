@@ -12,6 +12,7 @@ import { transformerCopyButton } from '@rehype-pretty/transformers'
 
 import matter from 'gray-matter'
 import fs from 'fs'
+import OnThisPage from '@/components/on-this-page'
 
 const htmlContent = `
   <div style={{color: 'red'}}>I am Html</div>
@@ -38,9 +39,13 @@ const BlogPage = async ({ params }: { params: { slug: string } }) => {
   const htmlContent = (await processor.process(content)).toString()
   return (
     <MaxWidthWrapper className="prose dark:prose-invert">
-      <h1 className="text-lg font-bold">{data.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-      {params.slug}
+      <div className="flex">
+        <div className="px-16">
+          <h1>{data.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: htmlContent }}></div>
+        </div>
+        <OnThisPage className="text-sm w-[50%]" htmlContent={htmlContent} />
+      </div>
     </MaxWidthWrapper>
   )
 }
